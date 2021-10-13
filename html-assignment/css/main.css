@@ -27,6 +27,15 @@ a:link{
     background-color: lightcyan;
 }
 
-a:link{
-    color: rgb(33, 88, 92);
+a:hover{
+    background-color: ivory;
+}
+
+a{
+    text-decoration: none;
+}
+
+#border{
+    border-style: inset;
+    border-color: cornsilk;
 }
