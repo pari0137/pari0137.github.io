@@ -61,7 +61,7 @@ nav{
 }
 
 nav li{
-	float:left;
+	float:right;
 }
 
 nav a{
@@ -74,7 +74,7 @@ nav a{
 
 nav li a span{
 	display: block;
-	float:left;
+	float:right;
 	font-size:1.6rem;
 	line-height: 2.5rem;
 }
@@ -83,4 +83,6 @@ div{
 	margin: 20px;
 	background: rgb(236, 227, 208);
 }
+
+
 
