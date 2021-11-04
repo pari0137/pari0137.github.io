@@ -54,3 +54,33 @@ header{
 	text-align: center;
 	color: white;
 }
+
+nav{
+	height: 44px;
+	margin-bottom: 20px;
+}
+
+nav li{
+	float:left;
+}
+
+nav a{
+	text-align: center;
+	margin: 0 5px;
+	text-decoration:none;
+	width: 142px;
+	height: 44px;
+}
+
+nav li a span{
+	display: block;
+	float:left;
+	font-size:1.6rem;
+	line-height: 2.5rem;
+}
+
+div{
+	margin: 20px;
+	background: rgb(236, 227, 208);
+}
+
