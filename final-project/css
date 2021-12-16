@@ -52,3 +52,6 @@ table {
                       CSS BEGINS
 *********************************************************/
 
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
