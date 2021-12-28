@@ -54,5 +54,4 @@ table {
 
 body{
 	color: black;
-	font-family: open-sans;
 }
