@@ -52,12 +52,89 @@ table {
                       CSS BEGINS
 *********************************************************/
 
+/* media query to set minimum width on screen*/
+@media screen and (min-width: 760px){
+
+
 html{
 	color: black;
 	/* moved open-sans up to the begining to prioritize it as it is the font we want to use */
 	font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
+/* setting max width for container */
 body{
 	max-width: 1200px;
+}
+
+/* setting font size and weight to all headers of page */
+header{
+	font-size: 80px;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h5{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h6{
+	font-size: 40px;
+	font-weight: bold;
+}
+/* h7 is not working for some reason. it won't let me target it */
+
+
+/* all targets below are to add yellow background and format of the page */
+.first{
+	border: 5px solid #ffe6ac;
+	background-color: #ffe6ac;
+}
+
+.second{
+	border: 5px solid #ffe6ac;
+	background-color: #ffe6ac;
+}
+
+.third{
+	border: 5px solid #ffe6ac;
+	background-color: #ffe6ac;
+}
+
+.fourth{
+	border: 5px solid #ffe6ac;
+	background-color: #ffe6ac;
+}
+
+.fifth{
+	border: 5px solid #ffe6ac;
+	background-color: #ffe6ac;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+	column-gap: 10px;
+}
 }
