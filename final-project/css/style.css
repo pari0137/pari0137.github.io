@@ -54,5 +54,10 @@ table {
 
 html{
 	color: black;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/* moved open-sans up to the begining to prioritize it as it is the font we want to use */
+	font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+body{
+	max-width: 1200px;
 }
