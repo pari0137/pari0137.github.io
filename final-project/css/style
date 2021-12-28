@@ -53,5 +53,6 @@ table {
 *********************************************************/
 
 body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif
+	color: black;
+	font-family: open-sans;
 }
